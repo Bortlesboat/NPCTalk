@@ -1,0 +1,20 @@
+{
+  "name": "npctalk",
+  "interface": {
+    "displayName": "NPCTalk"
+  },
+  "plugins": [
+    {
+      "name": "npctalk",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/OWNER/NPCTalk.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

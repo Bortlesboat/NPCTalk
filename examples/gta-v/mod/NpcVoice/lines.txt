@@ -1,0 +1,39 @@
+# situation|text  (same format as lines/franklin.txt; a leading [tag] steers Fish's delivery)
+# Situations the mod detects: chatter, greet, threatened, fleeing, combat, hurt, driving.
+# Unknown situations fall back to chatter. Original writing, not game dialogue.
+
+chatter|Man, this city never sleeps, and apparently neither do I.
+chatter|You ever notice nobody in this town actually walks anywhere?
+chatter|I swear the traffic on this street gets worse every single day.
+chatter|Sunny again. Must be nice being the weather around here.
+chatter|All I want is one day where nobody asks me for anything.
+chatter|My cousin said he'd pay me back last week. Still waiting.
+chatter|[sighing] Rent went up again. Of course it did.
+chatter|I should have stayed in bed today, I really should have.
+
+greet|Hey, how's it going?
+greet|You need something, or are you just standing there?
+greet|Oh, hey. Didn't see you there.
+greet|Uh, can I help you with something?
+greet|[annoyed] Personal space, buddy. Look it up.
+
+threatened|[panicked] Whoa, whoa! Put that thing down!
+threatened|[scared] Please, I don't want any trouble!
+threatened|[panicked] Okay, okay, take whatever you want!
+threatened|[scared] Don't shoot, man, I've got people waiting for me!
+
+fleeing|[panicked] Somebody call the cops!
+fleeing|[scared] Get away from me!
+fleeing|[panicked] Run! Everybody run!
+fleeing|[scared] Nope, I'm out of here!
+
+combat|[angry] You picked the wrong person today!
+combat|[angry] Come on then, let's go!
+combat|[angry] You're gonna regret that!
+
+hurt|[pained] Ow! What is wrong with you?
+hurt|[pained] Ah, that really hurt, man.
+
+driving|[annoyed] Learn how to drive!
+driving|[annoyed] Get off the road!
+driving|Green means go, pal!

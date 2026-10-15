@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# NPCTalk CLI launcher. Works from a clone, a plugin install, or a PATH symlink.
+#   npctalk health | npctalk say "..." --voice Name/clone | npctalk voice make ... | npctalk check .
+# Uses uv when available (it creates the project's .venv with numpy on first run); otherwise the system
+# python3, which then needs `pip install numpy`.
+set -euo pipefail
+SRC="${BASH_SOURCE[0]}"
+while [ -L "$SRC" ]; do
+  DIR="$(cd -P "$(dirname "$SRC")" && pwd)"
+  SRC="$(readlink "$SRC")"
+  [[ "$SRC" != /* ]] && SRC="$DIR/$SRC"
+done
+ROOT="$(cd -P "$(dirname "$SRC")/.." && pwd)"
+if command -v uv >/dev/null 2>&1 && [ -z "${NPCTALK_NO_UV:-}" ]; then
+  exec uv run --quiet --project "$ROOT" python -m npctalk "$@"
+fi
+PY="$(command -v python3 || command -v python)"
+PYTHONPATH="$ROOT${PYTHONPATH:+:$PYTHONPATH}" exec "$PY" -m npctalk "$@"

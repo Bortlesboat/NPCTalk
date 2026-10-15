@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+uv.lock
+.pytest_cache/
+.env
+.env.*
+build/
+dist/
+*.egg-info/
+# C# build output of the examples (the root bin/ is the CLI launcher and stays)
+examples/**/bin/
+examples/**/obj/
+# voices, recordings and game data never ship (npctalk check enforces it)
+voices/
+voices_work/
+data/
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.lab
+*.mkv
+*.mp4
+!docs/media/*.mp4
+/scratch/

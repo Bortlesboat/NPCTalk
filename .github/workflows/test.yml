@@ -1,0 +1,14 @@
+name: test
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv run --with pytest pytest -q tests
+      - name: help screens
+        run: ./bin/npctalk --help && for g in health say voice check; do ./bin/npctalk $g --help > /dev/null; done && ./bin/npctalk voice make --help > /dev/null && ./bin/npctalk voice upload --help > /dev/null
+      - name: nothing that shouldn't ship
+        run: ./bin/npctalk check .

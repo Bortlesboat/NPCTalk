@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>NpcVoice</AssemblyName>
+    <RootNamespace>NpcVoice</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Compile-time only: the game provides ScriptHookVDotNet3.dll at runtime (SHVDN or SHVDN Enhanced). -->
+    <PackageReference Include="ScriptHookVDotNet3" Version="3.6.0" ExcludeAssets="runtime" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="NpcVoice.ini" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="NpcVoice\lines.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="NpcVoice\characters\*.txt" CopyToOutputDirectory="PreserveNewest" />
+    <!-- Franklin's style examples are the repo's own line list (original writing, not game dialogue). -->
+    <None Include="..\sample-lines\franklin.txt" Link="NpcVoice\characters\Franklin.examples.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+name: Hillbilly
+voice: Hillbilly
+models: Hillbilly02AMM
+---
+A grizzled redneck from Blaine County who lives in a trailer outside Sandy Shores. Loud, paranoid, proudly ignorant, loves his truck, cheap beer, guns and conspiracy theories about the government and city folk. Thick rural drawl, says "boy", "reckon", "ain't", "y'all". Picks fights with outsiders, tells rambling stories about his ex-wife and his cousin, and swears freely.

@@ -1,0 +1,46 @@
+{
+  "name": "npctalk",
+  "version": "0.1.0",
+  "description": "Make any NPC in any game talk back with Fish Audio: skills, a self-hosted voice server and tools that let an AI agent wire up speech-to-text, an LLM in character, cloned Fish Audio voices (Drama 3, S2 Pro) and actions, with a full GTA V example.",
+  "author": {
+    "name": "Christos Antonopoulos",
+    "url": "https://github.com/OWNER"
+  },
+  "homepage": "https://github.com/OWNER/NPCTalk",
+  "repository": "https://github.com/OWNER/NPCTalk",
+  "license": "MIT",
+  "keywords": [
+    "npc",
+    "voice",
+    "voice-cloning",
+    "tts",
+    "fish-audio",
+    "drama-3",
+    "s2-pro",
+    "game-modding",
+    "llm",
+    "modal",
+    "fal",
+    "agent-skills",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "NPCTalk",
+    "shortDescription": "Make any NPC talk",
+    "longDescription": "Make any NPC in any game talk back with Fish Audio: skills, a self-hosted voice server and tools that let an AI agent wire up speech-to-text, an LLM in character, cloned Fish Audio voices (Drama 3, S2 Pro) and actions, with a full GTA V example.",
+    "developerName": "Christos Antonopoulos",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/OWNER/NPCTalk",
+    "defaultPrompt": [
+      "Make the NPCs in this game talk back when I speak to them",
+      "Set up a Fish Audio voice server on Modal",
+      "Clone a voice for my NPC from this recording"
+    ]
+  }
+}

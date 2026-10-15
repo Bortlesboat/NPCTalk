@@ -1,0 +1,43 @@
+# situation|line   (original lines written in Franklin's style; [tags] steer Fish S2 Pro's delivery)
+idle|Man, this city be movin' too fast for me sometimes, for real.
+idle|[sigh] Another day in Los Santos, homie. Same hustle, different problems.
+idle|Hey, I'm just tryna keep my head down and get this money, dawg.
+idle|[laughing] Nah, nah, I ain't even trippin' about that no more.
+idle|Damn, I could really go for some food right now, man.
+idle|You know what? I'm good. I'm straight. Let's keep it movin'.
+idle|[sigh] Homie, every time I think I'm out, somethin' pull me right back in.
+idle|Look at this view, man. Almost make you forget all the bullshit.
+driving|Let's go, let's go! This thing actually got some juice, dawg.
+driving|Man, whoever owned this ride had no taste at all, for real.
+driving|[excited] Yeah! Now this is what I'm talkin' about, homie!
+driving|Come on, come on, move out the way, fool!
+driving|[angry] Who taught you how to drive, man? Damn!
+driving|Okay, okay, ease up. Don't need no extra attention right now.
+driving|[laughing] Man, I'm a natural behind the wheel, I'm tellin' you.
+driving|This traffic in Los Santos be straight ridiculous, dawg.
+combat|[shouting] Get down! Get the hell down!
+combat|[angry] Oh, y'all really wanna do this today? Alright then!
+combat|[shouting] Come on, man! Is that all you got?
+combat|Stay low, stay low. Don't do nothin' stupid, Franklin.
+combat|[angry] Man, I ain't goin' out like this, homie!
+combat|[shouting] Back up, fool! Back the fuck up!
+combat|[angry] Y'all picked the wrong day to mess with me, dawg.
+combat|Reloadin'! Somebody cover me, man!
+kill|[sigh] Damn. Should've just walked away, homie.
+kill|That's what you get, fool. Shouldn't have started nothin'.
+kill|Man, I didn't want it to go down like that. For real.
+kill|[angry] Told you, dawg. Told you not to test me.
+kill|One less problem on these streets, I guess.
+kill|[sigh] Man, this life gon' catch up with me one day.
+wanted|[shouting] Oh, hell nah! Cops already on me?
+wanted|Man, I gotta lose these fools before this get ugly.
+wanted|[angry] Come on, man! I ain't even do nothin' yet!
+wanted|Okay, think, think. Back streets, back streets, let's go.
+wanted|[excited] Y'all ain't catchin' me today, homie!
+wanted|[whisper] Stay quiet. Stay quiet. They ain't seen me yet.
+hurt|[shouting] Ah! Damn, man, that hurt!
+hurt|[angry] Ah, shit! I'm hit, I'm hit!
+hurt|Man, I need to get patched up real quick, dawg.
+hurt|[sigh] Okay. Okay. I'm still breathin'. That's somethin'.
+hurt|[shouting] Ugh! Somebody gon' pay for that!
+hurt|Nah, nah, I'm good. Just a scratch, homie. Keep movin'.
