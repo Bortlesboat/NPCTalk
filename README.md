@@ -26,20 +26,20 @@ Pick your agent. Each gets the same skills (Agent Skills format), the fal MCP se
 
 | Agent | Install |
 |---|---|
-| **Claude Code** | `/plugin marketplace add OWNER/NPCTalk`<br>`/plugin install npctalk@npctalk` |
-| **Codex** | `codex plugin marketplace add OWNER/NPCTalk`<br>`codex plugin add npctalk@npctalk` |
-| **Gemini CLI** | `gemini extensions install https://github.com/OWNER/NPCTalk` |
+| **Claude Code** | `/plugin marketplace add christos-fal/NPCTalk`<br>`/plugin install npctalk@npctalk` |
+| **Codex** | `codex plugin marketplace add christos-fal/NPCTalk`<br>`codex plugin add npctalk@npctalk` |
+| **Gemini CLI** | `gemini extensions install https://github.com/christos-fal/NPCTalk` |
 | **VS Code / Copilot** | Enable `chat.plugins.enabled`, run **Chat: Install Plugin From Source**, enter this repo's URL |
 | **Cursor** | Clone it (Cursor reads `AGENTS.md` and `.cursor/mcp.json`) |
 | **OpenCode** | Clone and run `opencode` inside it (`opencode.json` adds the skills and the fal MCP server) |
-| **Skills only** (any agent) | `npx skills add https://github.com/OWNER/NPCTalk` |
-| **Anything else** | `git clone https://github.com/OWNER/NPCTalk` and start your agent inside it |
+| **Skills only** (any agent) | `npx skills add https://github.com/christos-fal/NPCTalk` |
+| **Anything else** | `git clone https://github.com/christos-fal/NPCTalk` and start your agent inside it |
 
 Inside a clone, `.agents/skills` and `.claude/skills` are copies of `skills/`, and `AGENTS.md` holds the
 instructions (`CLAUDE.md` and `GEMINI.md` point to it).
 
 **The `npctalk` CLI.** Plugin installs and clones put it on PATH (`bin/`). Anywhere else:
-`uv tool install git+https://github.com/OWNER/NPCTalk`.
+`uv tool install git+https://github.com/christos-fal/NPCTalk`.
 
 **Accounts and keys** (environment variables, never files):
 

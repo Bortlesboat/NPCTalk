@@ -32,7 +32,7 @@ copies differ.
 
 ## Tools
 - **`bin/npctalk`** (Python, sets itself up with `uv`; `bin\npctalk.cmd` on Windows). Put `bin` on PATH, or
-  `uv tool install git+https://github.com/OWNER/NPCTalk`. Every command has `--help`:
+  `uv tool install git+https://github.com/christos-fal/NPCTalk`. Every command has `--help`:
   - `health`, `say`: talk to the voice server like a game does (URL from `NPCVOICE_URL`, token from
     `NPCVOICE_TOKEN`)
   - `voice make`, `voice upload`: reference voices from a recording, into the server's volume (`FAL_KEY` for
