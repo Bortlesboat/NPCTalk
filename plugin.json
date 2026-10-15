@@ -5,10 +5,10 @@
   "description": "Make any NPC in any game talk back with Fish Audio: skills, a self-hosted voice server and tools that let an AI agent wire up speech-to-text, an LLM in character, cloned Fish Audio voices (Drama 3, S2 Pro) and actions, with a full GTA V example.",
   "author": {
     "name": "Christos Antonopoulos",
-    "url": "https://github.com/christos-fal"
+    "url": "https://github.com/christos-antono"
   },
-  "homepage": "https://github.com/christos-fal/NPCTalk",
-  "repository": "https://github.com/christos-fal/NPCTalk",
+  "homepage": "https://github.com/christos-antono/NPCTalk",
+  "repository": "https://github.com/christos-antono/NPCTalk",
   "license": "MIT",
   "keywords": [
     "npc",
