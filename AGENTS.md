@@ -1,5 +1,7 @@
 # NPCTalk
 
+A [Universal Modder](https://github.com/rehan-remade/universal-modder) project. Community: the [Universal Modder Discord](https://discord.com/invite/sEZWaf7vV).
+
 Skills, a self-hosted Fish Audio voice server and tools for AI coding agents (Claude Code, Codex, Cursor, Gemini
 CLI, GitHub Copilot, OpenCode and anything else that reads `AGENTS.md`). When someone opens an agent in this
 repo, they almost always want to **make the NPCs in a game talk**: the player speaks, the NPC answers in

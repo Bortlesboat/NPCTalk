@@ -1,7 +1,7 @@
 {
   "name": "npctalk",
   "version": "0.1.0",
-  "description": "Make any NPC in any game talk back with Fish Audio: skills, a self-hosted voice server and tools that let an AI agent wire up speech-to-text, an LLM in character, cloned Fish Audio voices (Drama 3, S2 Pro) and actions, with a full GTA V example.",
+  "description": "Make any NPC in any game talk back with Fish Audio: skills, a self-hosted voice server and tools that let an AI agent wire up speech-to-text, an LLM in character, cloned Fish Audio voices (Drama 3, S2 Pro) and actions, with a full GTA V example. A Universal Modder project.",
   "contextFileName": "AGENTS.md",
   "mcpServers": {
     "fal": {

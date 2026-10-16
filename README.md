@@ -1,6 +1,11 @@
 ﻿<h1 align="center">NPCTalk</h1>
 
 <p align="center">
+  <b>By <a href="https://github.com/rehan-remade/universal-modder">Universal Modder</a></b>, the toolkit that lets AI agents mod almost any game you own ·
+  <a href="https://discord.com/invite/sEZWaf7vV"><b>Join the Discord</b></a>
+</p>
+
+<p align="center">
   <b>Make any NPC in any game talk back, with Fish Audio voices.</b><br>
   Skills, a self-hosted voice server and tools that let an AI coding agent wire it up: the player speaks, the NPC
   answers in character, in a cloned voice, about a second later, and acts on what was said.
@@ -10,6 +15,7 @@
   <a href="#install">Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode</a> ·
   <a href="docs/how-it-was-made.md">how it was made</a> ·
   <a href="examples/gta-v">GTA V example</a> ·
+  <a href="https://discord.com/invite/sEZWaf7vV">Discord</a> ·
   <a href="LICENSE">MIT</a>
 </p>
 
@@ -144,6 +150,13 @@ talking faster. One early result here didn't survive a second run:
 
 Full reasoning: [`skills/make-npcs-talk/references/safety.md`](skills/make-npcs-talk/references/safety.md).
 
+## Community
+NPCTalk is a [Universal Modder](https://github.com/rehan-remade/universal-modder) project. Universal Modder's skills and tools cover the rest of a mod (engine
+recon, decompiling, fal-generated art, 3D and audio, in-game testing, showcase videos), and NPCTalk adds NPCs that
+talk back. Install both and an agent can take a game from "can I mod this?" to characters you can talk to.
+
+Show what you made, ask for help, and follow along in the **[Universal Modder Discord](https://discord.com/invite/sEZWaf7vV)**.
+
 ## Credits
 - Voices: [Fish Audio](https://fish.audio) (Drama 3, S2 Pro, fish-speech), served with
   [SGLang-Omni](https://github.com/sgl-project/sglang-omni) on [Modal](https://modal.com) and [fal](https://fal.ai).
@@ -151,7 +164,7 @@ Full reasoning: [`skills/make-npcs-talk/references/safety.md`](skills/make-npcs-
   [TypeSafe](https://docs.typesafe.ai) Jev.
 - GTA V: [Script Hook V](http://www.dev-c.com/gtav/scripthookv/),
   [ScriptHookVDotNet](https://github.com/scripthookvdotnet/scripthookvdotnet), [NAudio](https://github.com/naudio/NAudio).
-- Repo layout and principles: [universal-modder](https://github.com/rehan-remade/universal-modder).
+- A [Universal Modder](https://github.com/rehan-remade/universal-modder) project; the repo layout and principles come from universal-modder.
 - Built in real sessions with an AI coding agent (Claude Code), from the first line of the mod to the measurements.
 
 MIT licensed. GTA V and its characters belong to Rockstar Games; this project isn't affiliated with Rockstar, Fish

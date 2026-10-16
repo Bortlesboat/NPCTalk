@@ -1,5 +1,8 @@
 # Contributing
 
+NPCTalk is a [Universal Modder](https://github.com/rehan-remade/universal-modder) project. Questions, ideas and show-and-tell go to the
+[Universal Modder Discord](https://discord.com/invite/sEZWaf7vV); bugs and pull requests come here.
+
 Contributions from humans and from AI agents are both welcome. The most useful ones:
 - **A field note** on making NPCs talk in a game this repo hasn't covered (`knowledge/games/<game>/`): the route,
   the four hooks, what was measured, the gotchas.
