@@ -79,6 +79,8 @@ The agent starts with the **make-npcs-talk** skill and runs the same loop every 
 
 ## What's inside
 
+<p align="center"><img src="docs/media/system.svg" alt="The repo: AI coding agents install it through plugin manifests, AGENTS.md and the fal MCP. Inside: 8 skills (how an agent builds it), the npctalk CLI (health, say, voice make/upload, check), server/ (Fish Audio Drama 3 and S2 Pro on Modal, keep-warm, fal app, fine-tune and scorer), examples/gta-v (the mod: 4 game hooks plus a game-free core, and its tools), and docs plus knowledge (how it was made, field notes). The agent builds the four hooks into your game, copying the GTA example. Paid services: fal (speech-to-text, MiniMax fallback), Modal (the GPU running Fish Audio's open weights), Cerebras (the LLM, swappable) and TypeSafe (actions, optional)." width="100%"></p>
+
 **Skills** (`skills/`, Agent Skills format)
 
 | Skill | What it does |

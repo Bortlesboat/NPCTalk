@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+  <title>NPCTalk: what's in the repo</title>
+  <style>
+    .bg { fill: #ffffff; }
+    .repo { fill: #fafbfc; stroke: #9aa1ab; stroke-width: 1.5; stroke-dasharray: 6 4; }
+    .box { fill: #f4f5f7; stroke: #9aa1ab; stroke-width: 1.5; }
+    .agent { fill: #f6f0fb; stroke: #9c7cc4; stroke-width: 1.5; }
+    .game { fill: #eaf3ea; stroke: #6c9e6c; stroke-width: 1.5; }
+    .svc { fill: #eef1fb; stroke: #7d8cc4; stroke-width: 1.5; }
+    .t { fill: #1f2328; font-size: 15px; font-weight: 650; }
+    .h { fill: #1f2328; font-size: 13px; font-weight: 650; }
+    .s { fill: #57606a; font-size: 11.5px; }
+    .m { fill: #1f2328; font-size: 11.5px; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .lbl { fill: #57606a; font-size: 11.5px; font-style: italic; }
+    .a { stroke: #57606a; stroke-width: 1.6; fill: none; marker-end: url(#arrow); }
+    .ad { stroke: #57606a; stroke-width: 1.4; fill: none; stroke-dasharray: 5 4; marker-end: url(#arrow); }
+    .ah { fill: #57606a; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1117; }
+      .repo { fill: #0f141b; stroke: #6e7681; }
+      .box { fill: #161b22; stroke: #6e7681; }
+      .agent { fill: #1e1630; stroke: #8b6cc0; }
+      .game { fill: #12261a; stroke: #3f8f55; }
+      .svc { fill: #161c33; stroke: #5b6fbf; }
+      .t, .h, .m { fill: #e6edf3; }
+      .s, .lbl { fill: #9da7b3; }
+      .a, .ad { stroke: #9da7b3; }
+      .ah { fill: #9da7b3; }
+    }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path class="ah" d="M 0 0 L 10 5 L 0 10 z"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1000" height="660" rx="12"/>
+
+  <!-- agents -->
+  <rect class="agent" x="220" y="18" width="560" height="58" rx="10"/>
+  <text class="t" x="500" y="42" text-anchor="middle">AI coding agents</text>
+  <text class="s" x="500" y="62" text-anchor="middle">Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode</text>
+  <path class="a" d="M500 76 V112"/>
+  <text class="lbl" x="512" y="99">install: plugin manifests · AGENTS.md · skills copies · fal MCP</text>
+
+  <!-- the repo -->
+  <rect class="repo" x="16" y="116" width="968" height="324" rx="14"/>
+  <text class="t" x="34" y="140">NPCTalk repo</text>
+
+  <rect class="box" x="34" y="154" width="176" height="270" rx="10"/>
+  <text class="h" x="46" y="176">skills/ (8)</text>
+  <text class="s" x="46" y="194">how an agent builds it</text>
+  <text class="m" x="46" y="218">make-npcs-talk</text>
+  <text class="m" x="46" y="236">fish-voice-server</text>
+  <text class="m" x="46" y="254">voice-references</text>
+  <text class="m" x="46" y="272">npc-dialogue</text>
+  <text class="m" x="46" y="290">npc-actions</text>
+  <text class="m" x="46" y="308">voice-input</text>
+  <text class="m" x="46" y="326">voice-likeness-eval</text>
+  <text class="m" x="46" y="344">npc-showcase-clips</text>
+  <text class="s" x="46" y="372">+ references: the four</text>
+  <text class="s" x="46" y="388">hooks, engine notes,</text>
+  <text class="s" x="46" y="404">safety, gotchas</text>
+
+  <rect class="box" x="224" y="154" width="176" height="270" rx="10"/>
+  <text class="h" x="236" y="176">npctalk CLI</text>
+  <text class="s" x="236" y="194">Python, --help on everything</text>
+  <text class="m" x="236" y="218">health</text>
+  <text class="s" x="236" y="234">is the server up</text>
+  <text class="m" x="236" y="256">say</text>
+  <text class="s" x="236" y="272">a line, like a game would</text>
+  <text class="m" x="236" y="294">voice make / upload</text>
+  <text class="s" x="236" y="310">recording → clone clips</text>
+  <text class="m" x="236" y="332">check</text>
+  <text class="s" x="236" y="348">no audio, transcripts,</text>
+  <text class="s" x="236" y="364">keys or server URLs</text>
+  <text class="s" x="236" y="396">tests/ + CI</text>
+
+  <rect class="box" x="414" y="154" width="176" height="270" rx="10"/>
+  <text class="h" x="426" y="176">server/</text>
+  <text class="s" x="426" y="194">Modal apps, one API</text>
+  <text class="m" x="426" y="218">drama3.py</text>
+  <text class="s" x="426" y="234">Fish Audio Drama 3, best-of</text>
+  <text class="m" x="426" y="256">s2pro.py</text>
+  <text class="s" x="426" y="272">Fish Audio S2 Pro</text>
+  <text class="m" x="426" y="294">keepwarm.py</text>
+  <text class="m" x="426" y="316">fal/fal_app.py</text>
+  <text class="s" x="426" y="332">S2 Pro on fal, WebSocket</text>
+  <text class="m" x="426" y="354">finetune/</text>
+  <text class="s" x="426" y="370">dataset, LoRA, the scorer</text>
+  <text class="s" x="426" y="396">POST /speak → PCM stream</text>
+
+  <rect class="box" x="604" y="154" width="176" height="270" rx="10"/>
+  <text class="h" x="616" y="176">examples/gta-v</text>
+  <text class="s" x="616" y="194">the reference build (C#)</text>
+  <text class="m" x="616" y="218">mod/</text>
+  <text class="s" x="616" y="234">4 game hooks (GTA-only)</text>
+  <text class="s" x="616" y="250">+ game-free core: dialogue,</text>
+  <text class="s" x="616" y="266">LLM, voices, playback,</text>
+  <text class="s" x="616" y="282">open mic, actions</text>
+  <text class="m" x="616" y="306">tools/npcvoice-check</text>
+  <text class="s" x="616" y="322">the core without the game</text>
+  <text class="m" x="616" y="344">tools/shoot.ps1, edit.ts</text>
+  <text class="s" x="616" y="360">record and cut clips</text>
+  <text class="s" x="616" y="396">19 personas, no game audio</text>
+
+  <rect class="box" x="794" y="154" width="176" height="270" rx="10"/>
+  <text class="h" x="806" y="176">docs/ + knowledge/</text>
+  <text class="s" x="806" y="194">what was learned</text>
+  <text class="m" x="806" y="218">how-it-was-made.md</text>
+  <text class="s" x="806" y="234">the story, the numbers,</text>
+  <text class="s" x="806" y="250">the mistakes</text>
+  <text class="m" x="806" y="274">architecture.svg</text>
+  <text class="m" x="806" y="298">knowledge/games/</text>
+  <text class="s" x="806" y="314">a field note per game</text>
+  <text class="m" x="806" y="338">TEMPLATE.md</text>
+  <text class="s" x="806" y="354">for the next game</text>
+  <text class="s" x="806" y="396">CONTRIBUTING, SECURITY</text>
+
+  <!-- bottom: your game + services -->
+  <rect class="game" x="34" y="500" width="176" height="96" rx="10"/>
+  <text class="h" x="122" y="522" text-anchor="middle">Your game</text>
+  <text class="s" x="122" y="542" text-anchor="middle">4 hooks: who · scene ·</text>
+  <text class="s" x="122" y="558" text-anchor="middle">voice at the NPC · actions,</text>
+  <text class="s" x="122" y="574" text-anchor="middle">+ the core, copied from</text>
+  <text class="s" x="122" y="590" text-anchor="middle">examples/gta-v</text>
+
+  <rect class="svc" x="224" y="500" width="176" height="96" rx="10"/>
+  <text class="h" x="312" y="522" text-anchor="middle">fal (paid)</text>
+  <text class="s" x="312" y="542" text-anchor="middle">Nemotron speech-to-text</text>
+  <text class="s" x="312" y="558" text-anchor="middle">MiniMax voices (fallback)</text>
+  <text class="s" x="312" y="574" text-anchor="middle">clip storage · MCP</text>
+
+  <rect class="svc" x="414" y="500" width="176" height="96" rx="10"/>
+  <text class="h" x="502" y="522" text-anchor="middle">Modal (paid GPU)</text>
+  <text class="s" x="502" y="542" text-anchor="middle">H100 · ~$4/h while up</text>
+  <text class="s" x="502" y="558" text-anchor="middle">Fish Audio open weights</text>
+  <text class="s" x="502" y="574" text-anchor="middle">voices in a volume</text>
+
+  <rect class="svc" x="604" y="500" width="176" height="96" rx="10"/>
+  <text class="h" x="692" y="522" text-anchor="middle">Cerebras (paid)</text>
+  <text class="s" x="692" y="542" text-anchor="middle">the NPC's lines · Qwen</text>
+  <text class="s" x="692" y="558" text-anchor="middle">any OpenAI-compatible</text>
+  <text class="s" x="692" y="574" text-anchor="middle">LLM swaps in</text>
+
+  <rect class="svc" x="794" y="500" width="176" height="96" rx="10"/>
+  <text class="h" x="882" y="522" text-anchor="middle">TypeSafe (paid)</text>
+  <text class="s" x="882" y="542" text-anchor="middle">Jev picks the action</text>
+  <text class="s" x="882" y="558" text-anchor="middle">and spots orders</text>
+  <text class="s" x="882" y="574" text-anchor="middle">optional ([Actions] off)</text>
+
+  <!-- arrows -->
+  <path class="a" d="M122 424 V496"/>
+  <text class="lbl" x="130" y="462">the agent builds it</text>
+  <path class="a" d="M290 424 V496"/>
+  <text class="lbl" x="298" y="462">voice make</text>
+  <path class="a" d="M350 424 L450 496"/>
+  <text class="lbl" x="352" y="482">say · upload</text>
+  <path class="a" d="M502 424 V496"/>
+  <text class="lbl" x="510" y="462">modal deploy</text>
+  <path class="a" d="M692 424 V496"/>
+  <path class="a" d="M740 424 L840 496"/>
+  <text class="lbl" x="700" y="462">the mod calls</text>
+
+  <text class="lbl" x="34" y="628">purple: who uses it · grey: in the repo · green: what you build · blue: paid services. The GTA mod calls all four at runtime;</text>
+  <text class="lbl" x="34" y="646">the LLM swaps for any OpenAI-compatible one and actions are optional. Fish Audio Drama 3 and S2 Pro are open weights, self-hosted on Modal.</text>
+</svg>
