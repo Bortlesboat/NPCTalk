@@ -17,7 +17,7 @@ Talking feels like talking if the answer starts within about two seconds. Every 
 | The reply, in character | Cerebras `qwen-3.8-27b`, reasoning off | 0.28-1.0 s (spikes to 5-8 s) |
 | What they do | TypeSafe Jev, in parallel | 0.07-0.18 s |
 | First audio of the voice | Fish Audio on a Modal H100, streamed | 0.35-0.55 s |
-| **From the end of the sentence to the voice** | | **1.15-2.2 s** |
+| **From the end of the sentence to the voice** | push-to-talk (the open mic adds its 0.7 s wait) | **1.15-2.2 s** |
 
 The two choices that made it fit: a fast LLM with reasoning off (a reasoning model alone would have blown the
 budget), and a voice server that streams, so the NPC starts talking while the rest of the line is still being

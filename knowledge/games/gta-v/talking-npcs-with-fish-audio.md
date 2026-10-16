@@ -8,7 +8,7 @@ date: 2026-10-15
 
 # Talking NPCs with Fish Audio
 
-Walk up to anyone in story mode and talk out loud; they answer in character, in a cloned voice, in 1.2-2.2 s, with
+Walk up to anyone in story mode and talk out loud; they answer in character, in a cloned voice, 1.2-2.2 s after you stop (push-to-talk; +0.7 s with the open mic), with
 an action when it fits. Code: `examples/gta-v`. Story: `docs/how-it-was-made.md`.
 
 ## Setup
@@ -36,7 +36,7 @@ standard route for single-player script mods. Audio plays on the PC, not through
 
 ## Timings (warm, from `NpcVoice.log`)
 speech-to-text 0.38-0.80 s, LLM 0.28-1.0 s (occasional 5-8 s spikes), Jev 0.07-0.18 s in parallel, first audio
-0.35-0.55 s; end of sentence to voice 1.15-2.2 s. Cold GPU: 1-3 min, covered by the MiniMax fallback.
+0.35-0.55 s; end of sentence to voice 1.15-2.2 s, plus the open mic's 0.7 s silence wait. Cold GPU: 1-3 min, covered by the MiniMax fallback.
 
 ## Verification
 - Every exchange logged with per-step timings and what was heard and said.

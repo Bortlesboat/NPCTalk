@@ -15,8 +15,9 @@ player's mic ──► voice activity ──► speech-to-text ──► who? + 
                                                                 │
                                                                 └──► action choice (Jev, ~0.1 s, in parallel) ──► animation
 ```
-From the end of the player's sentence to the NPC's voice: 1.2-2.2 s warm (logged exchanges: 1.15 s, 1.20 s,
-1.57 s, 2.19 s). The LLM sometimes spikes to 5-8 s, so log every step's time per exchange.
+From the end of the player's sentence to the NPC's voice: 1.2-2.2 s warm with push-to-talk (logged exchanges:
+1.15 s, 1.20 s, 1.57 s, 2.19 s); the open mic adds the 0.7 s of silence it waits for before deciding the sentence
+ended. The LLM sometimes spikes to 5-8 s, so log every step's time per exchange.
 
 ## The loop: build it in this order
 1. **Recon the game.** Version, how code runs inside it (script hook, mod loader, plugin API, or your own engine),

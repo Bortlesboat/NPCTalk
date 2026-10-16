@@ -88,5 +88,5 @@
 
   <text class="lbl" x="24" y="160">green: inside the game (the four hooks)</text>
   <text class="lbl" x="24" y="178">blue: services (fal, Cerebras, Modal, TypeSafe)</text>
-  <text class="lbl" x="24" y="324">end of sentence → voice: 1.2-2.2 s</text>
+  <text class="lbl" x="24" y="414">end of sentence → voice: 1.2-2.2 s (+0.7 s open mic)</text>
 </svg>

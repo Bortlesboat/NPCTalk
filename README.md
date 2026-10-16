@@ -13,7 +13,7 @@
   <a href="LICENSE">MIT</a>
 </p>
 
-<p align="center"><img src="docs/media/architecture.svg" alt="One exchange: the player talks; voice activity detection; speech-to-text on fal; the game says who is being talked to and what's around; an LLM on Cerebras writes the reply in character while TypeSafe Jev picks an action; the Fish Audio voice server on a Modal H100 streams the cloned voice back; the NPC speaks, with subtitles, mouth movement and the action. End of sentence to voice: 1.2-2.2 seconds." width="100%"></p>
+<p align="center"><img src="docs/media/architecture.svg" alt="One exchange: the player talks; voice activity detection; speech-to-text on fal; the game says who is being talked to and what's around; an LLM on Cerebras writes the reply in character while TypeSafe Jev picks an action; the Fish Audio voice server on a Modal H100 streams the cloned voice back; the NPC speaks, with subtitles, mouth movement and the action. End of sentence to voice: 1.2-2.2 seconds with push-to-talk; the open mic adds a 0.7 second wait." width="100%"></p>
 
 Built first for **GTA V**: walk up to anyone in Los Santos and just talk. Lamar roasts your hoodie, a cop tells
 you to file a civil claim and flips you off, Michael defends his robe like it's a business suit. Every line is
